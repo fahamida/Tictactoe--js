@@ -1,0 +1,129 @@
+body {
+  background-color:#2F4F4F;
+}
+
+h1 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 7em;
+  color: white;
+}
+
+h2 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2em;
+  color: white;
+}
+#box{
+  height:650px;
+  width:650px; 
+  margin:50px auto auto auto;
+  padding:10px;
+  border-radius:50px;
+  box-shadow: 10px 10px 10px #3A3938;
+  background:url("https://www.pixeden.com/media/k2/galleries/220/004-wood-melamine-subttle-pattern-background-pat.jpg");
+}
+
+#box1{
+  height:500px;
+  width:500px;
+  border-style:solid;
+  margin:75px auto auto auto;
+  background-color:black;
+  padding:40px;
+  display: inline-block;
+}
+#choose{
+ display: none;
+  width:300px;
+  height:300px;
+  margin:50px auto auto auto;
+  color:white;
+  font-family:'Shadows Into Light';
+  font-size:2em;
+}
+
+#game1{
+display: none;
+width:360px;
+margin:10px auto 40px auto;
+}
+
+.cell{
+  float:left; 
+  width:130px;
+  height:130px;
+  cursor: pointer;
+  text-align: center;
+  font-size:90px;
+   font-family:'Shadows Into Light', cursive;
+  color: white;
+}
+.bottom{
+  border-bottom:3px solid white;
+}
+
+.right{
+  border-right:3px solid white;
+}
+
+.winnerDisplay{
+  display: none;
+  width: 300px;
+  top: 400px;
+  background-color: rgba(
+197, 189, 179, 0.8);
+  position: absolute;
+  left: 50%;
+  margin-left:-150px;
+  margin top: 600px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+  font-size: 2em;
+}
+
+td {
+	border:  2px solid #333;
+	height:  100px;
+	width:  100px;
+	text-align:  center;
+	vertical-align:  middle;
+	font-family:  "Shadows Into Light", cursive, sans-serif;
+	font-size:  90px;
+	cursor: pointer;
+}
+
+table {
+	border-collapse: collapse;
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	top: 300px;
+}
+
+table tr:first-child td {
+	border-top: 0;
+  color: white;
+}
+
+table tr:last-child td {
+	border-bottom: 0;
+   color: white;
+}
+
+table tr td:first-child {
+	border-left: 0;
+   color: white;
+}
+
+table tr td:last-child {
+	border-right: 0;
+   color: white;
+}
+
+.navbar{
+  margin-bottom:0px;
+
+}

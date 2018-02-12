@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Final TicTacToe</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+
+<div class="text-center container-fluid">
+  <h1> TIC TAC TOE </h1>
+  <div id="game">
+    <div id="box">
+      <div class="text-center" id="box1">
+        <div id="choose">
+          <h2> Options</h2>
+          <div class="row">
+            <div class="col-lg-4 col-lg-offset-1 text-right letter-choice">Choose Your Letter:<br><br></div>
+            <div class="radio-buttons text-left">
+              <input type="radio" value="X" name="letters" id="x" onchange="myLetter()">&nbsp;&nbsp;X
+              <br/>
+              <input type="radio" value="O" name="letters" id="o" onchange="myLetter()">&nbsp;&nbsp;O
+            </div>
+          </div>
+
+          <div class="row">
+            <br>
+            <button class="btn btn-primary btn-lg start-btn" id="play" onClick="startGame()"> Play!</button>
+          </div>
+        </div>
+        <div id="game1">
+ 
+          <table>
+            <tr>
+              <td class="cell bottom right" id="0"></td>
+              <td class="cell bottom right" id="1"></td>
+              <td class="cell bottom" id="2"></td>
+            </tr>
+            <tr>
+              <td class="cell bottom right" id="3"></td>
+              <td class="cell bottom right" id="4"></td>
+              <td class="cell bottom" id="5"></td>
+            </tr>
+            <tr>
+              <td class="cell bottom right" id="6"></td>
+              <td class="cell bottom right" id="7"></td>
+              <td class="cell bottom" id="8"></td>
+            </tr>
+          </table>
+        </div>
+          <div class="winnerDisplay">
+            <div class="text"></div>
+            <button class= "btn btn-default" value="Refresh Page" onClick="history.go(0)">Replay</button>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--footer-->
+
+<nav class="navbar navbar-inverse">
+  <ul class="nav navbar-nav">
+     <li><a href="https://codepen.io/fahamida/full/dRPVNy/" target="_blank"> Fahamida's Portfolio</a>
+          </li>
+  <li><a href="https://www.linkedin.com/in/fahamida-haque/" target="_blank">LinkedIn</a></li> 
+  <li> <a href="https://www.freecodecamp.com" target="_blank">Free Code Camp</a></li>
+<li><a href="http://www.fahamida.com" target="_blank">Fahamida Haque &copy; 2017. All Rights Reserved</a></li>
+
+  </ul>  
+</nav>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
